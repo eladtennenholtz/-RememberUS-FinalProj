@@ -1,0 +1,31 @@
+.continer {
+    background-color: #f5f6fa;
+    padding: 0.5%;
+    position: relative;
+    left: 7%;
+    width: 85%;
+    height: 800px;
+    border-radius: 30px;
+    box-shadow: 50px 50px 50px rgba(5, 5, 5, 0.25);
+}
+
+.display-none {
+    display: none;
+}
+
+.continer button {
+    font: bold;
+    cursor: pointer;
+    padding: 0.8rem 1rem;
+    border: 1px solid #232124;
+    background-color: #232124;
+    color: white;
+    border-radius: 12px;
+    font-size: 8px;
+}
+
+@media (max-width: 1400px) {
+    .continer {
+        height: 550px;
+    }
+}

@@ -1,0 +1,20 @@
+.image-list {
+    width: 300px;
+    height: 690px;
+}
+
+.uploadWithoutImage {
+    display: inline-block;
+    margin: 4px !important;
+}
+
+.btn-UploadRemove {
+    width: 300px;
+    height: 50px;
+}
+
+@media (max-width: 1400px) {
+    .image-list {
+        height: 440px;
+    }
+}

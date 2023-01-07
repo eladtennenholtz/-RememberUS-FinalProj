@@ -1,0 +1,45 @@
+.space {
+    width: 4px;
+    height: auto;
+    display: inline-block;
+}
+
+.invalid {
+    background: #f00505;
+}
+
+.form-Login {
+    background-color: rgba(220, 221, 225, 0.9);
+    padding: 30px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 500px;
+    height: 400px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 50px 50px 50px rgba(5, 5, 5, 0.25);
+}
+
+.form-Login button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    border: 1px solid #232124;
+    background-color: #232124;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+}
+
+.Logo {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+@media (max-width: 1400px) {
+    .form-Login {
+        top: 10%;
+        left: 30%;
+    }
+}

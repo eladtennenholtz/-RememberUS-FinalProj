@@ -1,0 +1,50 @@
+.detaile {
+    display: grid;
+    height: 80px;
+    align-content: center;
+    justify-content: center;
+    font-style: oblique;
+    border-radius: 4px;
+}
+
+.edit-Form {
+    background-color: rgba(220, 221, 225, 0.9);
+    padding: 30px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 500px;
+    height: 550px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 50px 50px 50px rgba(5, 5, 5, 0.25);
+}
+
+.ConfirmEdit-But {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    border: 1px solid #232124;
+    background-color: #232124;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+}
+
+/* .ConfirmEdit-But {
+    font-variant-east-asian: JIS83;
+    font: bold;
+    cursor: pointer;
+    padding: 0.8rem 10rem;
+    border: 1px solid #232124;
+    background-color: #232124;
+    color: white;
+    border-radius: 12px;
+    font-size: 8px;
+} */
+
+@media (max-width: 1400px) {
+    .edit-Form {
+        height: 400px;
+    }
+}

@@ -1,0 +1,33 @@
+.nav-container {
+    display: grid;
+    background-color: rgba(220, 221, 225, 0.7);
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.main-items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.nav-item {
+    display: grid;
+    align-content: center;
+    justify-content: space-around;
+    color: black;
+    height: 100%;
+    width: 110%;
+}
+.nav-item:hover {
+    background-color: black;
+    color: white;
+}
+
+.logo-container {
+    display: grid;
+    justify-content: end;
+}
+.logo-pic {
+    width: 70px;
+}

@@ -1,0 +1,45 @@
+SignUp
+
+{"firstName":"Elad","lastName":"T","userName":"EladTT","password":"12321","email":"elad@gmail.com","adress":"Tel aviv","gender":"Male","personPrivacy":"true"}
+
+
+
+AddNewForPlanImage
+
+{"userName":"EladTT","forPlanImageInBase64":"FP"}
+
+
+
+AddOneFurnitureWithoutPhotoManually
+
+{"userName":"EladTT","forPlanIndex":"0","typeName":"chair"}
+
+
+
+DeleteFurnitureByIndexOfCertainFloorPlan
+
+{"userName":"EladTT","forPlanIndex":"0","furnitureIndex":"4"}
+
+
+
+ChangeTypeNameOfCertainFurnitureIndexForCertainFloorplanIndexOfExistUser
+
+{"userName":"EladTT","forPlanIndex":"0","furnitureIndex":"4","newTypeName":"bath"}
+
+
+
+UpdateDetail
+
+{"userName":"EladTT","updateField":"personPrivacy","updateData":"true"}
+
+Like/Dislike
+{"userName":"EladTT","floorPlanIndex":"0"}
+
+
+get all public user requast
+http://localhost:4000/api/v1/User/BringAllPublicUser (get requast)
+will return object
+{
+    publicUsersArray:the array
+    arrayLength: array length
+}

@@ -1,0 +1,32 @@
+{
+  "name": "rememberus-nodejsserver",
+  "version": "1.0.0",
+  "description": "Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Itay-Talias/RememberUS-NodejsServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Itay-Talias/RememberUS-NodejsServer/issues"
+  },
+  "homepage": "https://github.com/Itay-Talias/RememberUS-NodejsServer#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "mongodb": "^4.6.0",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "smoothly-request": "^1.1.4",
+    "validator": "^13.7.0"
+  }
+}

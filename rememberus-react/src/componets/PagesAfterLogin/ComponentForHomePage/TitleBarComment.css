@@ -1,0 +1,11 @@
+.comment-bar{
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  width: 200px;
+  top: 0 !important;
+}
+
+
+

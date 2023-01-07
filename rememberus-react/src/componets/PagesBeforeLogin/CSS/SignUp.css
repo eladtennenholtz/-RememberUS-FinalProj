@@ -1,0 +1,39 @@
+.invalid {
+    background: #f00505;
+}
+
+.form-SignUp {
+    background-color: rgba(220, 221, 225, 0.9);
+    padding: 30px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width: 500px;
+    height: 550px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 50px 50px 50px rgba(5, 5, 5, 0.25);
+}
+
+.form-SignUp button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    border: 1px solid #232124;
+    background-color: #232124;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+}
+
+.Logo {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+@media (max-width: 1400px) {
+    .form-SignUp {
+        top: 0;
+        left: 30%;
+    }
+}

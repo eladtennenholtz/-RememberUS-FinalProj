@@ -1,0 +1,18 @@
+.image-list-public {
+    position: relative !important;
+    width: 25%;
+    display: inline-block !important;
+    height: 600px;
+    left: 50%;
+}
+
+.image-model {
+    width: 40%;
+    position: absolute;
+}
+
+@media (max-width: 1400px) {
+    .image-list-public {
+        height: 400px;
+        left: 38%;    }
+}

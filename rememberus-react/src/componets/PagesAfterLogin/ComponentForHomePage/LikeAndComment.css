@@ -1,0 +1,17 @@
+.continerOfLikeAndComment{
+    display: inline-block;
+}
+.like-button{
+    display: block;
+    background-color: black !important;
+    color: white !important;
+}
+
+.comment-button{
+    background-color: black !important;
+    color: white !important;
+}
+
+.title-like{
+    margin-bottom: 10px;
+}

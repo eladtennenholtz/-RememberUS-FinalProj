@@ -1,0 +1,10 @@
+.table {
+    height: 800px;
+    width: "100%";
+}
+
+@media (max-width: 1400px) {
+    .table {
+        height: 500px;
+    }
+}

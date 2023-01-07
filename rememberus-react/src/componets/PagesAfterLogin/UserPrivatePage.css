@@ -1,0 +1,33 @@
+.floorPlan {
+    position: relative;
+    width: 70%;
+    height: 600px;
+    top: 120px;
+    border-radius: 4px;
+}
+
+.Removebtn {
+    left: 0;
+    top: 120px;
+    width: 30px;
+}
+
+.Uploadbtn {
+    left: 40%;
+    margin-top: 2%;
+}
+
+.Images-bar {
+    display: inline-block !important;
+    position: absolute;
+    right: 2%;
+    top: 0;
+}
+
+@media (max-width: 1400px) {
+    .floorPlan {
+        position: relative;
+        width: 60%;
+        height: 380px;
+    }
+}
